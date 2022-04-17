@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap');
+
+
+
+*,
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  line-height: 115%;
+  font-weight: 500;
+  color: #222;
+}
+
+body {
+  background: #065f46;
+}
+
+footer {
+  background: #e0e0e0;
+}
+
+a {
+  color: #065f46;
+}
+
+a:hover {
+  color: #001aff;
+}
+
+figcaption {
+  font-size: 1rem;
+}
+
+section#workshop-screens figcaption {
+  color: white;
+}
+
+#process .column figcaption{
+  color: white;
+}
+
+section#workshop-play figcaption {
+  color: white;
+}
+
+.container {
+  background: #eee;
+}
+
+.hero__overlay-content {
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+  background: transparent;
+}
+
+.hero__overlay-content h2 {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: 600;
+  max-width: 540px;
+}
+
+
+
+@media (orientation: portrait) {
+  *,
+  body {
+    font-size: 16px;
+  }
+
+  figcaption {
+    opacity: 1;
+  }
+
+  .hero__overlay-content {
+    padding-top: 8vh;
+  }
+
+  .hero__overlay-content h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    
+  }
+}
